@@ -6,6 +6,7 @@ mod map_builder;
 mod camera;
 mod components;
 mod spawner;
+mod turn_state;
 mod prelude { 
     pub use bracket_lib::prelude::*;
     pub use legion::*;
@@ -22,6 +23,7 @@ mod prelude {
     pub use crate::camera::*;
     pub use crate::components::*;
     pub use crate::spawner::*;
+    pub use crate::turn_state::*;
 }
 use prelude::*;
 
